@@ -11,5 +11,9 @@
 		<h2><a href="persona-Linkin.php">Persona-Linkin</a></h2>
 		<h2><a href="user-story.php">User Story</a></h2>
 		<h2><a href="use-case.php">User Case</a></h2>
+		<h2><a href= "ConceptualModel.html"> Conceptual Model</a></h2>
+		<h2><img src= ERDProfLink.jpg> ERD</h2>
+
+
 	</body>
 </html>
