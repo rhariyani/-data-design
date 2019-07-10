@@ -1,0 +1,12 @@
+body{
+	background-color: darkolivegreen;
+}
+
+table, tr, td{
+	alignment: center;
+	border: solid 1px;
+	font-size: large;
+}
+h2{
+	color: darkblue;
+}
