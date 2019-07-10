@@ -11,19 +11,31 @@
 		<br>
 		<p><b><strong>Preconditions:</strong></b></p>
 		<ul>
-			<li>User need an account.</li>
+			<li>User created account and have logged in.</li>
+			<li>User need to upload profile picture and fill out required details.</li>
 		</ul>
 		<p><b>Postconditions:</b></p>
 		<ul>
-			<li>User can apply for jobs directly</li>
+
+			<li> User connect to another people </li>
 		</ul>
 		<h2><strong>Interaction Flow:</strong></h2>
+		<div>
 		<ul>
-			<li> To navigate site user need to sign up</li>
-			<li>User need to upload profile picture and fill out required details.</li>
-		<li>Create connection by search people.</li>
-			<li>With ready profile and resume user applies for job easily.</li>
+			<li> User click search button to look for known associate to connect.</li>
+			<li> User is directed to list of associate page</li>
+			<li> User clicks profile of associate</li>
+			<li> User is directed to associate Profile page</li>
+		<li>User click on connect button on associate page </li>
+		<li> A message page pops up </li>
+		<li> User types a connection message  </li>
+		<li>User click Done button </li>
+		<li>User redirected to associate profile page of an associate </li>
 		</ul>
-		<a href="index.php">Index page</a>
+		</div>
+		<div>
+<img sizes="5%" src="link.jpeg"/>
+		</div>
+				<a href="index.php">Index page</a>
 	</body>
 </html>

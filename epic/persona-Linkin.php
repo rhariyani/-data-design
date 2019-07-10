@@ -32,13 +32,21 @@
 		</tr>
 
 		<tr>
-			<td><strong>Likes:</strong> </td>
-			<td> Reading</td>
-			<td> Travelling</td>
+			<td><strong>Likes:</strong>
+			Reading
+			 Travelling</td>
 		</tr>
 		<tr>
-			<td><strong>Award:</strong> </td>
-			<td> Star Employee 2015</td>
+			<td><strong>Dislikes:</strong>
+			 Hostile work space
+			 Pending work</td>
+		</tr>
+
+
+
+		<tr>
+			<td><strong>Award:</strong>
+			Star Employee 2015</td>
 		</tr>
 
 		<tr>
