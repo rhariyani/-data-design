@@ -13,7 +13,7 @@
 		<h2><a href="use-case.php">User Case</a></h2>
 		<h2><a href= "ConceptualModel.html"> Conceptual Model</a></h2>
 		<h2>ERD</h2>
-			<img src="reworkerdphase1.jpg"  alt=""/>
+			<img src="ReworkerdERD2.jpg" alt=""/>
 
 
 	</body>
