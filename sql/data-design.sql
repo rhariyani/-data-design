@@ -23,6 +23,7 @@ CREATE TABLE connection(
 	ConnectionType VARCHAR(120),
 	DateofConnection DATETIME,
 	profileId BINARY(16) NOT NULL,
+	INDEX (profileId),
 		FOREIGN KEY (profileId) References profile(profileId)
 	);
 
