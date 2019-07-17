@@ -5,25 +5,27 @@ DROP TABLE IF EXISTS profile;
 
 CREATE TABLE profile(
 	profileId BINARY(16) NOT NULL,
-	UserName VARCHAR(100) not null,
-	UserPassward char(97) NOT NULL,
-	Name VARCHAR(50) NOT NULL,
-	Gender VARCHAR(50),
-	Age TINYINT,
-	Education VARCHAR(128),
-	Awards  VARCHAR(128),
-	Occupation VARCHAR(128),
-	Likes VARCHAR(128),
-	Dislikes VARCHAR(128),
-	URL VARCHAR(128),
+	ProfileUserName VARCHAR(100) not null,
+	ProfileUserPassword char(97) NOT NULL,
+	ProfileName VARCHAR(50) NOT NULL,
+	ProfileGender VARCHAR(50),
+	ProfileAge TINYINT,
+	ProfileEducation VARCHAR(128),
+	ProfileAwards  VARCHAR(128),
+	ProfileOccupation VARCHAR(128),
+	profileLikes VARCHAR(128),
+	ProfileDislikes VARCHAR(128),
+	ProfileURL VARCHAR(128),
 	PRIMARY KEY(profileId)
 );
 
 CREATE TABLE connection(
-	ConnectionType VARCHAR(120),
-	DateofConnection DATETIME,
-	ConnectionprofileId1 BINARY(16) NOT NULL,
-	ConnectionprofileId2 BINARY(16) NOT NULL,
-	FOREIGN KEY (ConnectionprofileId1) References profile(profileId)
+	connectionType VARCHAR(120),
+	connectionDate DATETIME,
+	connectionProfileId1 BINARY(16) NOT NULL,
+	connectionProfileId2 BINARY(16) NOT NULL,
+	FOREIGN KEY (connectionProfileId1) References profile(profileId),
+	FOREIGN KEY (connectionProfileId2) References profile(profileId)
+
 	);
 
