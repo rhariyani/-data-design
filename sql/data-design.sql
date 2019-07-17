@@ -22,8 +22,8 @@ CREATE TABLE profile(
 CREATE TABLE connection(
 	ConnectionType VARCHAR(120),
 	DateofConnection DATETIME,
-	profileId BINARY(16) NOT NULL,
-	INDEX (profileId),
-		FOREIGN KEY (profileId) References profile(profileId)
+	ConnectionprofileId1 BINARY(16) NOT NULL,
+	ConnectionprofileId2 BINARY(16) NOT NULL,
+	FOREIGN KEY (ConnectionprofileId1) References profile(profileId)
 	);
 
